@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(182, 153, 117);
+  padding: 20px 40px;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ padding: 25px 30px;
+
+}
+.img-cart {
+  height: 30px;
+}
+.header-logo {
+  /* font-size: 34px;
+  font-weight: 500; */
+  width: 70px;
+}
+.btn {
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  background-color: rgb(228, 151, 159);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(83, 117, 147);
+  
+}
+.item-name {
+  font-size: 22px;
+  color: rgb(200, 28, 34);
+}
+.product {
+  margin: 10px;
+  font-size: 20px;
+}
